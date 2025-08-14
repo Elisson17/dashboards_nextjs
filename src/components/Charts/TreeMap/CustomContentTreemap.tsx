@@ -145,6 +145,7 @@ const COLORS = [
   "#F8C12D",
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const CustomizedContent = (props: any) => {
   const {
     root,
@@ -154,9 +155,7 @@ const CustomizedContent = (props: any) => {
     width,
     height,
     index,
-    payload,
     colors,
-    rank,
     name,
   } = props;
 

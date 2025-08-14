@@ -4,7 +4,6 @@ import React from "react";
 import {
   ComposedChart,
   Line,
-  Area,
   Bar,
   XAxis,
   YAxis,
